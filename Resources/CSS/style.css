@@ -7,9 +7,12 @@
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   height: 200px;
   position: relative;
   bottom: 175px;
+  top: 0px;
 }
 
 a {
@@ -48,17 +51,18 @@ a {
 
 .featured-images-top {
   display: flex;
-  justify-content: flex-end;
-  width: 1000px;
+  justify-content: space-around;
+  width: 1200px;
   height: 200px;
   position: relative;
   top: 150px;
 }
 
 .featured-images-bottom {
-  display: flex;
-  width: 800px;
+  text-align: center;
+  width: 1200px;
   height: 200px;
+  padding-left: 2em;
   position: relative;
   top: 150px;
 }
@@ -67,26 +71,25 @@ a {
   img {
   width: 300px;
   height: 200px;
-  padding-left: 2em;
 }
 
 .featured-images-bottom
   img {
   width: 300px;
   height: 200px;
-  margin-left: 150px;
-  padding-left: 2em;
+  padding-left: 10px;
 }
 
 .featured-descriptions-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
-  width: 1000px;
+  width: 1200px;
   position: relative;
   top: 150px;
 }
 
+/*Adjust style.css to make description line up with pics*/
 .featured-descriptions-bottom {
   display: flex;
   width: 950px;
@@ -95,42 +98,56 @@ a {
 }
 
 .featured-descriptions-bottom h4 {
-  padding-left: 11em;
   margin-bottom: 150px;
+  padding-left: 30em;
 }
-
-/*Make location background image flex container with height of 500px and width of 1200px*/
 
 .location-container {
   display: inline-flex;
-  align-items: flex-start;
-  height: 300px;
+  justify-content: space-around;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
   position: relative;
-  bottom: 325px;
+  top: 10px;
 }
 
 .downtown-container {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   height: 300px;
-  padding-right: 2em;
+  position: relative;
+  top: 100px;
+  opacity: 1;
 }
 
 .bayside-container {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   height: 300px;
+  position: relative;
+  top: 100px;
+  opacity: 1;
 }
 
 .oakdale-container {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   height: 300px;
   padding-right: 2em;
+  position: relative;
+  top: 100px;
+  opacity: 1;
 }
 
 .copyright h5 {
   text-align: left;
   margin-left: 20px;
   position: relative;
-  bottom: 250px;
+  top: 75px;
 }
 
 #Mission {
@@ -150,11 +167,7 @@ a {
   }
 
 #Locations h2 {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   position: relative;
-  top: 150px;
+  top: 100px;
   width: 1200px;
-  height: 500px;
-  text-align: center;
-  padding-top: 4em;
-}
+  }
