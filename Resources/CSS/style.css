@@ -11,8 +11,7 @@ footer {
   flex-direction: column;
   height: 200px;
   position: relative;
-  bottom: 175px;
-  top: 0px;
+  top: 100px;
 }
 
 a {
@@ -89,17 +88,22 @@ a {
   top: 150px;
 }
 
-/*Adjust style.css to make description line up with pics*/
-.featured-descriptions-bottom {
-  display: flex;
-  width: 950px;
+.myrtle {
+  display: inline-flex;
+  width: 300px;
+  height: 70px;
   position: relative;
   top: 150px;
+  left: 5px;
 }
 
-.featured-descriptions-bottom h4 {
-  margin-bottom: 150px;
-  padding-left: 30em;
+.bedford {
+  display: inline-flex;
+  width: 300px;
+  height: 70px;
+  position: relative;
+  top: 150px;
+  left: 5px;
 }
 
 .location-container {
@@ -109,7 +113,7 @@ a {
   width: 1200px;
   height: 500px;
   position: relative;
-  top: 10px;
+  top: 100px;
 }
 
 .downtown-container {
@@ -147,7 +151,7 @@ a {
   text-align: left;
   margin-left: 20px;
   position: relative;
-  top: 75px;
+  top: 150px;
 }
 
 #Mission {
@@ -166,8 +170,14 @@ a {
     width: 1200px;
   }
 
+#Locations {
+  width: 0px;
+  position: relative;
+  top: 150px;
+}
+
 #Locations h2 {
   position: relative;
-  top: 100px;
+  top: 15px;
   width: 1200px;
   }
